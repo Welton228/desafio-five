@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.secao-topo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(120deg, #f0833a 0%, #242527 100%);
+}
+
+.secao-img div {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(120deg, #f0833a 0%, #242527 100%);
+}
+
+.secao-img img {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.secao-txt {
+   font-size: 36px;
+   line-height: 40px;
+   padding: 10px;
+   margin: 0 auto;
+   color: #fff;
+}
+
+@media  (max-width: 900px) {
+    .secao-topo {
+        width: 100%;
+        height: 150px;
+        font-size: 54px;
+    }
+    .secao-txt {
+        font-size: 34px;
+        line-height: 37px;
+        padding: 23px;
+     }
+    
+     .secao-img img {
+        height: 414px;
+    }
+}
+
+@media (max-width: 370px) {
+    .secao-img img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+}
